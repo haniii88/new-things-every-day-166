@@ -16,7 +16,7 @@ function dailyLog166() {
     completedHabits: completed,
     missedHabits: habits.length - completed,
     consistencyRate: `${consistencyRate.toFixed(1)}%`,
-    status: consistencyRate >= 80 ? "Great consistency" : "Keep improving"
+    status: consistencyRate >= 80 ? "Great consistency" : "Keep improvin"
   };
 
   console.log("Daily Habit Report:", report);
